@@ -1,6 +1,9 @@
 ---
-layout: default
+layout: page
+title: Blog
+permalink: /blog/
 ---
+
 <div class="home">
   <h1 class="page-heading">Posts</h1>
 

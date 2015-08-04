@@ -10,5 +10,14 @@ url: "http://rodrigobusta.webfactional.com" # the base hostname & protocol for y
 twitter_username: rodrigobusta
 github_username:  rodrigobusta
 
+#-- 
+permalink: 	'/blog/:year/:title/'
+paginate_path: '/blog/page:num/'
+
+# --
+include: ['_pages']
+relative_permalinks: false
+
+
 # Build settings
 markdown: kramdown
