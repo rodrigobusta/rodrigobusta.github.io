@@ -1,0 +1,14 @@
+# Site settings
+title: Rodrigo Bustamante
+email: rodbusta@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Página pessoal de Rodrigo Bustamante.
+  Brasileiro, Engenheiro de Computação - Desenvolvedor Web, vegetariano, feminista, entre outras coisas.
+  ""Por um mundo onde sejamos socialmente iguais, humanamente diferentes e totalmente livres.""
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://rodrigobusta.webfactional.com" # the base hostname & protocol for your site
+twitter_username: rodrigobusta
+github_username:  rodrigobusta
+
+# Build settings
+markdown: kramdown
