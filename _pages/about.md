@@ -4,4 +4,4 @@ title: Sobre
 permalink: /about/
 ---
 
-Página personal de Rodrigo Bustamante Magalhães
+Página pessoal de Rodrigo Bustamante Magalhães

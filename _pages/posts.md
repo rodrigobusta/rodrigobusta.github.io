@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Blog
+title: Aprendiz de Viajeiro
 permalink: /blog/
 ---
 
 <div class="home">
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Artigos</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}

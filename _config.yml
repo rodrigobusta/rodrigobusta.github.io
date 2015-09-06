@@ -1,8 +1,8 @@
 # Site settings
-title: Rodrigo Bustamante
+title: Aprendiz de Viajeiro
 email: rodbusta@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Página pessoal de Rodrigo Bustamante.
+  Página pessoal de Rodrigo Bustamante Magalhães.
   Brasileiro, engenheiro de computação - desenvolvedor web, vegetariano, feminista, entre outras coisas.  
 #"Por um mundo onde sejamos socialmente iguais, humanamente diferentes e totalmente livres."
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -17,7 +17,6 @@ paginate_path: '/blog/page:num/'
 # --
 include: ['_pages']
 relative_permalinks: false
-
 
 # Build settings
 markdown: kramdown
