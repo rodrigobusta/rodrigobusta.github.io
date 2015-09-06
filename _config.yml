@@ -1,22 +1,63 @@
-# Site settings
-title: Aprendiz de Viajeiro
-email: rodbusta@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Página pessoal de Rodrigo Bustamante Magalhães.
-  Brasileiro, engenheiro de computação - desenvolvedor web, vegetariano, feminista, entre outras coisas.  
-#"Por um mundo onde sejamos socialmente iguais, humanamente diferentes e totalmente livres."
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://rodrigobusta.webfactional.com" # the base hostname & protocol for your site
-twitter_username: rodrigobusta
-github_username:  rodrigobusta
+# Site wide configuration
 
-#-- 
-permalink: 	'/blog/:year/:title/'
-paginate_path: '/blog/page:num/'
+title:            Aprendiz de Mochileiro
+locale:           pt_BR
+url:              #"http://rodrigobusta.webfactional.com"
 
-# --
-include: ['_pages']
+
+# Jekyll configuration
+
+permalink:   /:categories/:year/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Rodrigo Bustamante
+  avatar: bio-photo.jpg
+  bio: "Brasileiro, mochileiro, engenheiro de computação, desenvolvedor web, vegetariano, feminista, entre outras coisas."
+  email: rodbusta@gmail.com
+  disqus-shortname:
+  twitter: rodrigobusta
+  facebook: rodrigobusta
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: rodrigobusta
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: rodrigobusta
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+
+include: [".htaccess", '_pages']
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+
 relative_permalinks: false
-
-# Build settings
-markdown: kramdown
