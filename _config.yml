@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Aprendiz de Mochileiro
+title:            Blog de Rodrigo Bustamante
 locale:           pt_BR
 url:              "http://rodrigobusta.github.io/"
 
@@ -28,7 +28,7 @@ kramdown:
 owner:
   name: Rodrigo Bustamante
   avatar: bio-photo.jpg
-  bio: "Brasil, mochileiro, engenharia de computação, agricultura, web-dev, vegetarianismo, entre outras coisas."
+  bio: "Brasil, engenheiro de computação, agricultura, web-dev, entre outras coisas."
   email: rodbusta@gmail.com
   disqus-shortname:
   twitter: rodrigobusta
