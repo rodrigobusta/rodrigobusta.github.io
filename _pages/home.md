@@ -2,7 +2,7 @@
 permalink: /
 layout: home
 excerpt: "Página inicial"
-tags: [viagem, blog, mochileiro]
+tags: [dev, blog]
 image:
   feature: blogbanner-1024x256.png
 ---
